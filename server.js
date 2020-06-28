@@ -4,8 +4,7 @@ const bodyParser = require("body-parser");
 const passport = require("passport");
 const users = require("./routes/api/users");
 const app = express();
-const dotenv = require('dotenv'); 
-dotenv.config()
+
 
 // Bodyparser middleare
 app.use(
